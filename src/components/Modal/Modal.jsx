@@ -25,7 +25,7 @@ export class Modal extends Component {
   render() {
     return (
       <div className="Overlay" onClick={this.handleOverlayClick}>
-        <div className="Modal">{this.props.children}</div>
+        <div className="Modal No_scroll">{this.props.children}</div>
       </div>
     );
   }
